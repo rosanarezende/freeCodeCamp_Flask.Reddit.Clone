@@ -9,5 +9,7 @@ Desenvolvimento de um clone do [Reddit](https://www.reddit.com/), inclusive com 
 <br>
 
 <p align="center">
-  <img  height='600' src='https://user-images.githubusercontent.com/45580434/88123760-fa6f6900-cba1-11ea-98d9-a739c447782c.gif'>
+  <img  height='600' src='https://user-images.githubusercontent.com/45580434/88123881-2e4a8e80-cba2-11ea-8687-d9a6f7d68998.gif'>
 </p>
+
+
