@@ -3,9 +3,10 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from helper_functions import salt_password
 from flask_bcrypt import Bcrypt
+from config import DevelopmentConfig
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://b8077ff7f73140:2a25c8b6@us-cdbr-east-02.cleardb.com/heroku_37fd418817fd19e'
+app.config.from_object(DevelopmentConfig)
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
